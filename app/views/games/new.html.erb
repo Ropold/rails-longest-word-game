@@ -1,0 +1,21 @@
+<h1>New Gameeh</h1>
+<h2><%= @letters %></h2>
+
+<form action="/score" data-turbo="false">
+  <div class="input-group">
+    <input type="text" class="form-control" name="game" placeholder="type word...">
+    <span class="input-group-btn">
+      <button class="btn btn-default" type="submit">
+          <i class="fa fa-search">match</i>
+      </button>
+    </span>
+  </div>
+</form>
+
+<%# <form action="/answer" data-turbo="false">
+  <div data-mdb-input-init class="form-outline">
+    <input type="text" name="question" class="form-control bg-body-tertiary">
+      <label class="form-label" for="textAreaExample">Type your deal</label>
+  </div>
+    <input type="submit" class="btn btn-primary" value="Ask!">
+</form> %>
